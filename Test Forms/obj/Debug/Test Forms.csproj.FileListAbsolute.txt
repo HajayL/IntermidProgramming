@@ -1,0 +1,10 @@
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\bin\Debug\Test Forms.exe.config
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\bin\Debug\Test Forms.exe
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\bin\Debug\Test Forms.pdb
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.csproj.AssemblyReference.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.csproj.SuggestedBindingRedirects.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test_Forms.Properties.Resources.resources
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.csproj.GenerateResource.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.csproj.CoreCompileInputs.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.exe
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.pdb

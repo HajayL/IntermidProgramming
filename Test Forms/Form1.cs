@@ -42,8 +42,7 @@ namespace Test_Forms
 
         private void Form1_DoubleClick(object sender, EventArgs e)
         {
-            timesClicked++;
-            this.Text = String.Format("Mouse Pos | ({0}, {1}) | This form has been clicked [{2}] times", mousePos[0], mousePos[1], timesClicked);
+            this.Text = String.Format("Mouse Pos | ({0}, {1}) | This form has been clicked [{2}] times", mousePos[0], mousePos[1], ++timesClicked);
         }
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)

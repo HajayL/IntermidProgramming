@@ -18,6 +18,7 @@ namespace Test_Forms
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -42,12 +43,15 @@ namespace Test_Forms
 
         private void Form1_DoubleClick(object sender, EventArgs e)
         {
-            this.Text = String.Format("Mouse Pos | ({0}, {1}) | This form has been clicked [{2}] times", mousePos[0], mousePos[1], ++timesClicked);
+            this.Text = String.Format("This form has been clicked [{0}] times", ++timesClicked);
         }
 
         private void Form1_MouseMove(object sender, MouseEventArgs e)
         {
             mousePos = new float[2] { e.X, e.Y };
+            label1.Text = String.Format("Mouse Pos | ({0}, {1})", mousePos[0], mousePos[1]);
         }
+
+        
     }
 }

@@ -8,3 +8,4 @@ C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\T
 C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.csproj.CoreCompileInputs.cache
 C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.exe
 C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test Forms.pdb
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Test Forms\obj\Debug\Test_Forms.Form1.resources

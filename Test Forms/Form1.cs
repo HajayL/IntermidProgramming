@@ -16,5 +16,25 @@ namespace Test_Forms
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Console.WriteLine("Hello World!");
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Console.WriteLine("Goodbye World!");
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            Console.WriteLine("Hello!!!");
+        }
+
+        private void Form1_Deactivate(object sender, EventArgs e)
+        {
+            Console.WriteLine("Goodbye");
+        }
     }
 }

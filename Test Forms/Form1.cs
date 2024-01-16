@@ -12,6 +12,9 @@ namespace Test_Forms
 {
     public partial class Form1 : Form
     {
+        float[] mousePos = { 0, 0};
+        int timesClicked = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -35,6 +38,17 @@ namespace Test_Forms
         private void Form1_Deactivate(object sender, EventArgs e)
         {
             Console.WriteLine("Goodbye");
+        }
+
+        private void Form1_DoubleClick(object sender, EventArgs e)
+        {
+            timesClicked++;
+            this.Text = String.Format("Mouse Pos | ({0}, {1}) | This form has been clicked [{2}] times", mousePos[0], mousePos[1], timesClicked);
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            mousePos = new float[2] { e.X, e.Y };
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\bin\Debug\OpenForms.exe.config
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\bin\Debug\OpenForms.exe
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\bin\Debug\OpenForms.pdb
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.csproj.AssemblyReference.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.csproj.SuggestedBindingRedirects.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.Form1.resources
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.Properties.Resources.resources
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.csproj.GenerateResource.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.csproj.CoreCompileInputs.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.exe
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\OpenForms\obj\Debug\OpenForms.pdb

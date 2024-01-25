@@ -1,0 +1,8 @@
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\obj\Debug\Sort Sort.csproj.AssemblyReference.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\obj\Debug\Sort Sort.csproj.SuggestedBindingRedirects.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\obj\Debug\Sort Sort.csproj.CoreCompileInputs.cache
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\bin\Debug\Sort Sort.exe.config
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\bin\Debug\Sort Sort.exe
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\bin\Debug\Sort Sort.pdb
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\obj\Debug\Sort Sort.exe
+C:\Users\hlawson5\source\repos\HajayL\IntermidProgramming\Sort Sort\obj\Debug\Sort Sort.pdb

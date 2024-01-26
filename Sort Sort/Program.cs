@@ -60,7 +60,7 @@ namespace Sort_Sort
             timer.Restart();
             for (int pass = 0; pass < array.Length - 1; pass++)
             {
-                for (int index = 0; index < array.Length - pass; index++)
+                for (int index = 0; index < array.Length - 1 - pass; index++)
                 {
                     if (array[index] < array[index + 1])
                     {

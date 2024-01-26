@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,14 +11,15 @@ namespace Sort_Sort
     internal class Program
     {
         static private Random rnd = new Random();
+        static private Stopwatch timer = new Stopwatch();
 
         static void Main(string[] args)
         {
             int[] intArray = new int[0];
 
             Fill(ref intArray, GetValue("Give me the array length"), GetValue("Give me the upper limit"));
-
             BubbleSort(intArray);
+            SelectionSort(intArray);
 
             Console.Write("Press any key to close ");
             Console.ReadKey(true);
@@ -54,10 +56,11 @@ namespace Sort_Sort
         static private void BubbleSort(int[] array)
         {
             int iteration = 0;
-
+            
+            timer.Restart();
             for (int pass = 0; pass < array.Length - 1; pass++)
             {
-                for (int index = 0; index < array.Length - 1 - pass; index++)
+                for (int index = 0; index < array.Length - pass; index++)
                 {
                     if (array[index] < array[index + 1])
                     {
@@ -67,13 +70,41 @@ namespace Sort_Sort
                     iteration++;
                 }
             }
+            timer.Stop();
+
+            Console.WriteLine("Bubble: {0} Iterations | {1} ms", iteration, timer.ElapsedMilliseconds);
+        }
+
+        static private void SelectionSort(int[] array)
+        {
+            int iteration = 0;
+            int maxPosition;
+
+            timer.Restart();
+            for (int pass = 0; pass < array.Length; pass++)
+            {
+                maxPosition = 0;
+                for (int index = 0; index < array.Length - pass; index++)
+                {
+                    if (array[index] > array[maxPosition])
+                    {
+                        maxPosition = index;
+                    }
+
+                    iteration++;
+                }
+
+                Swap(ref array[maxPosition], ref array[array.Length - 1 - pass]);
+            }
+            timer.Stop();
 
             foreach (int num in array)
             {
-                Console.WriteLine(num);
+                Console.Write(num+" ");
             }
+            Console.WriteLine();
 
-            Console.WriteLine("{0} Iterations", iteration);
+            Console.WriteLine("Selection: {0} Iterations | {1} ms", iteration, timer.ElapsedMilliseconds);
         }
     }
 }
